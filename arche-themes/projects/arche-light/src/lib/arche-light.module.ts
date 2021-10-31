@@ -12,7 +12,8 @@ import { ButtonComponent } from './button/button.component';
   imports: [
   ],
   exports: [
-    ArcheLightComponent
+    ArcheLightComponent,
+    ButtonComponent
   ]
 })
 export class ArcheLightModule { }
