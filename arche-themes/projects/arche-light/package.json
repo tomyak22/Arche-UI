@@ -1,6 +1,13 @@
 {
   "name": "@braintrust-dev/arche-light",
-  "version": "0.0.3",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build && npm run copy-assets",
+    "build:prod": "ng build --prod && npm run copy-assets",
+    "copy-assets": "copy \".\\src\\styles\\*.*\" \"..\\..\\dist\\arche-light\\\""
+  },
+  "version": "0.0.19",
   "peerDependencies": {
     "@angular/common": "^12.2.0",
     "@angular/core": "^12.2.0"

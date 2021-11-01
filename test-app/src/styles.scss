@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@braintrust-dev/arche-light/arche-light.style.scss";
+
+body {
+    background-color: black;
+}

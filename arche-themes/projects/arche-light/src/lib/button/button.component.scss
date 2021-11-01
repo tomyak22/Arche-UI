@@ -1,4 +1,41 @@
-button {
-    background: green;
-    color: orange;
+:host {
+    padding: 1rem 2rem;
+    border-radius: 7px;
+    appearance: none;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.primary {
+    background: #00BCD4;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 7px;
+    border-color: #00BCD4;
+     color: white;
+}
+
+.primary:hover {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 7px;
+    border-color: #FFB74D;
+}
+
+.primary-dark {
+    background: transparent;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 7px;
+    border-color: #00BCD4;
+    color: #00BCD4;
+  }
+
+.primary-dark:hover {
+    background: #00BCD4;
+    color: white;
 }
