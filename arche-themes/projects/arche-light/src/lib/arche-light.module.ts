@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { ArcheLightComponent } from './arche-light.component';
 import { ButtonComponent } from './button/button.component';
@@ -10,6 +11,7 @@ import { ButtonComponent } from './button/button.component';
     ButtonComponent
   ],
   imports: [
+    CommonModule
   ],
   exports: [
     ArcheLightComponent,
