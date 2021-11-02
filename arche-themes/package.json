@@ -4,9 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build-lib": "cd projects\\arche-light && ng build && npm run copy-assets && cd ..\\..\\  && npm run send-to-npm",
+    "copy-assets": "copy \".\\src\\styles\\*.*\" \"..\\..\\dist\\arche-light\\\"",
+    "send-to-npm": "cd .\\dist\\arche-light && npm publish"
   },
   "private": true,
   "dependencies": {

@@ -1,4 +1,4 @@
-button {
+.arche-button {
     padding: 1rem 2rem;
     border-radius: 7px;
     appearance: none;
@@ -10,7 +10,32 @@ button {
     cursor: pointer;
 }
 
-.primary {
+.arche-button.primary {
     background: #00BCD4;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 7px;
+    border-color: #00BCD4;
      color: white;
+}
+
+.arche-button.primary:hover {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 7px;
+    border-color: #FFB74D;
+}
+
+.arche-button.primary-dark {
+    background: transparent;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 7px;
+    border-color: #00BCD4;
+    color: #00BCD4;
+  }
+
+.arche-button.primary-dark:hover {
+    background: #00BCD4;
+    color: white;
 }
